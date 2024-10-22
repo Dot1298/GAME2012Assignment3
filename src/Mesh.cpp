@@ -27,6 +27,7 @@ void CreateMesh(Mesh* mesh, const char* path)
 			obj->positions[idx.p * 3 + 2]    //z
 		};
 	}
+
 	
 	assert(obj->normal_count > 1);
 	for (int i = 0; i < count; i++)
